@@ -40,7 +40,6 @@ The Tkinter GUI will open and guide the user through the quiz with progress and 
 ## Data formats
 
 - JSON: recommended for full fidelity (question metadata, choices, correct answers, explanations).
-- CSV: supported for simpler interchange (best for multiple-choice and true/false formats).
 
 ## Project structure (example)
 
@@ -49,16 +48,8 @@ The Tkinter GUI will open and guide the user through the quiz with progress and 
 - quiz_creator/          # core OOP modules (Quiz, Question, Persistence, CLI helpers, GUI wrappers)
 - tests/                 # unit tests for core classes
 
-Adjust paths/names above to match the actual structure in this repository.
-
-## Suggested short repo description (<= 100 chars)
-
-Quiz Creator (OOP): CLI authoring + Tkinter GUI for taking quizzes (Python)
 
 ## Contributing
 
 Contributions, bug reports, and feature requests are welcome. If you add new question types or change storage formats, please include tests for the core domain classes.
 
-## License
-
-Include a LICENSE file in this repository or replace this section with your chosen license.
